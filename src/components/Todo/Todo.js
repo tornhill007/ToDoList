@@ -1,10 +1,7 @@
 import React from 'react';
 import {Field, reduxForm} from "redux-form";
 import {connect} from "react-redux";
-import {maxLength, required} from "../../utils/validators/validators";
-import classes from "../common/FormsControl/FormsControls.module.css"
 import style from "./Todo.module.css"
-import {Input} from "../common/FormsControl/FormsControls";
 import TodoList from "../TodoList/TodoList";
 import {
     addNewTask,
@@ -18,6 +15,7 @@ import {changeFilter} from "../../redux/reducers/filtersReducer";
 import Header from "../Footer/Header";
 import TodoForm from "../TodoForm/TodoForm";
 import {NavLink} from "react-router-dom";
+import {getAllTasks, getCurrentFilter} from "../../redux/selectors/todoListSelectors";
 
 
 const ReduxTodoForm = reduxForm({
@@ -93,8 +91,8 @@ class Todo extends React.Component {
 };
 
 const mapStateToProps = (state) => ({
-    tasks: state.todoListPage.tasks,
-    currentFilter: state.filtersPage.currentFilter
+    tasks: getAllTasks(state),
+    currentFilter: getCurrentFilter(state)
 });
 
 export default connect(mapStateToProps, {

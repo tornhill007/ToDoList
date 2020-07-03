@@ -5,10 +5,11 @@ import {
     closeModal,
     editTask
 } from "../../../redux/reducers/todoListReducer";
+import {getAllTasks} from "../../../redux/selectors/todoListSelectors";
 
 let mapStateToProps = (state) => {
     return {
-        tasks: state.todoListPage.tasks,
+        tasks: getAllTasks(state),
     }
 };
 

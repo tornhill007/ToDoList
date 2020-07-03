@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9eb6aac8-5601-4273-a597-9fb6296c49b0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/selectors/todoListSelectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modal/EditModal/EditModalContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal/EditModal/EditModalContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modal/ModalContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal/ModalContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Todo/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Todo/Todo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Info" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -39,11 +43,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\komarik\Desktop\todo-list-app\src\redux" />
       <recent name="C:\Users\komarik\Desktop\todo-list-app\src\components\Info" />
       <recent name="C:\Users\komarik\Desktop\todo-list-app\src\assets\images" />
       <recent name="C:\Users\komarik\Desktop\todo-list-app\src\components\TodoList" />
       <recent name="C:\Users\komarik\Desktop\todo-list-app\src\components\TodoForm" />
-      <recent name="C:\Users\komarik\Desktop\todo-list-app\src\components\Todo" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -73,7 +77,8 @@
       <updated>1593693513680</updated>
       <workItem from="1593693515303" duration="8551000" />
       <workItem from="1593710480732" duration="12745000" />
-      <workItem from="1593761697972" duration="34588000" />
+      <workItem from="1593761697972" duration="35830000" />
+      <workItem from="1593815488339" duration="1120000" />
     </task>
     <servers />
   </component>
@@ -85,22 +90,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="459" y="114" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593804589239" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1593805062069">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1593815295788">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593805062069" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1593805062069">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593815295788" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1593815295788">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593805062069" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1593805062068">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593815295788" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1593815295787">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593805062068" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1593805062069">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593815295787" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1593815295788">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593805062069" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593815295788" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1593811784534">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
