@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrap {
+    margin-bottom: 20px;
+}
+
+.header {
+    color: black;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.inactive {
+    color: white;
+    background-color: rgba(0,0,0,.3);
+    padding: 5px;
+    border-radius: 10px;
+    outline: none!important;
+}
+
+.active {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none!important;
+    box-shadow: inset 3px 3px 6px rgba(154, 147, 140, 0.5), 2px 2px 6px rgba(255, 255, 255, 1);
+}
+
+.infoItem {
+    color: white;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.infoWrap {
+    border-radius: 10px;
+    padding: 5px 55px 5px 55px;
+    background-color: black;
+    opacity: 0.6;
+}

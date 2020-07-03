@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.container1 {
+  min-height: 660px;
+  background: url("https://images.unsplash.com/photo-1534838813692-d6d37d710f9a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80") no-repeat center center fixed;
+  background-size: cover;
+}

@@ -1,0 +1,66 @@
+.lineThrough {
+    text-decoration: line-through;
+}
+
+.item {
+    font-weight: bold;
+    font-size: 1.5em;
+    width: 500px;
+    color: black;
+}
+
+.wrapper {
+    padding: 8px 15px 8px 15px;
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+
+}
+
+.wrapper:hover {
+    /*background-color: white;*/
+    /*opacity: 0.5;*/
+    box-shadow: inset 3px 3px 6px rgba(154, 147, 140, 0.5), 2px 2px 6px rgba(255, 255, 255, 1);
+}
+
+.icon {
+    color: brown;
+    cursor: pointer;
+}
+
+.icon:hover {
+    transform: scale(1.4);
+    color: red;
+}
+
+.icon1 {
+    color: black;
+    cursor: pointer;
+}
+
+.icon1:hover {
+    transform: scale(1.3);
+}
+
+.container {
+    background-image: url("https://thumbs.dreamstime.com/b/night-city-background-vector-67159680.jpg");
+}
+
+.completed {
+    border-radius: 8px;
+    border-bottom: black solid 2px;
+    background-color: white;
+    opacity: 0.3;
+}
+
+.creatingDate {
+    color: black;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.img {
+    width: 4%;
+    height: 4%;
+}

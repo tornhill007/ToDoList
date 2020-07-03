@@ -1,0 +1,8 @@
+.wrapText {
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    font-weight: bold;
+    font-family: Consolas;
+    font-size: 1.2em;
+}
